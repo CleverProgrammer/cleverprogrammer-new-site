@@ -9,7 +9,6 @@ import { useState } from 'react'
 
 export default function HomePage() {
   const [placedStudents, setPlacedStudents] = useState([])
-  const [totalPlacedStudentsSalary, setTotalPlacedStudentsSalary] = useState(0)
 
   return (
     <div className='flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen'>
@@ -66,7 +65,6 @@ export default function HomePage() {
               <AllStudentCards
                 setPlacedStudents={setPlacedStudents}
                 placedStudents={placedStudents}
-                setTotalPlacedStudentsSalary={setTotalPlacedStudentsSalary}
               />
             </div>
           </div>

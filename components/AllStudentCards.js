@@ -6,7 +6,8 @@ import { getStudents } from '../utils/getStudents'
 const AllStudentCards = ({ setPlacedStudents, placedStudents }) => {
   useEffect(() => {
     const fetchStudents = async () => {
-      const students = await getStudents()
+      const { students } = await getStudents()
+      console.log(students, '🔥')
 
       setPlacedStudents(students)
     }
