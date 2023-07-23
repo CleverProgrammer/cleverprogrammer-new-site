@@ -4,7 +4,7 @@ import '../styles/globals.css'
 
 let title = 'Clever Programmer'
 let description = 'Land your dream job as a developer in months.'
-let ogimage = 'https://roomgpt-demo.vercel.app/og-image.png'
+let ogimage = 'https://i.imgur.com/QPEDI4a.png'
 let sitename = 'cleverprogrammer.com'
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     images: [ogimage],
     title,
     description,
-    url: 'https://roomgpt-demo.vercel.app',
+    url: 'https://cp-nine.vercel.app/',
     siteName: sitename,
     locale: 'en_US',
     type: 'website',
